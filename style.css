@@ -38,6 +38,7 @@ main {
     border: 4px solid black;
     border-radius: 2%;
     background-color: #3e4b67;
+    background: linear-gradient(210deg,rgba(255, 255, 255, 1) 0%, rgba(62, 75, 103, 1) 1.5%, rgba(62, 75, 103, 1) 100%);
     height: 90vh;
     width: 40vw;
 }
@@ -67,15 +68,37 @@ main {
 .container_screen .screen p {
     margin: 0 0.5rem;
     color: #12161b;
-    font-size: 5rem;
-    font-weight: bold;
-    letter-spacing: 0.3rem;
+
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-variation-settings:
+      "ELGR" 1,
+      "ELSH" 2;
+
+    font-size: 9rem;
+    /* font-size: 5rem; */
+    /* font-weight: bold; */
+    letter-spacing: 0.5rem;
+    /* letter-spacing: 0.3rem; */
 }
 .container_screen .m_in_screen p {
     margin: 0 0.5rem;
     color: #12161b;
-    font-size: 3rem;
-    font-weight: bold;
+
+
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-variation-settings:
+      "ELGR" 1,
+      "ELSH" 2;
+
+    font-size: 6rem;
+    /* font-size: 3rem; */
+    /* font-weight: bold; */
 }
 
 .container_name_and_solar_panel{
@@ -160,24 +183,32 @@ main .container_pad button{
 
 main .container_pad .B_left_column_large{
     background-color: #30517f;
+    /* Pour le reflet */
+    background: linear-gradient(210deg,rgba(255, 255, 255, 1) 0%, rgba(48, 81, 127, 1) 10%, rgba(48, 81, 127, 1) 100%);
     color: #e3ecf3;
     font-size: 2rem;
     font-weight: bold;
 }
 main .container_pad .B_left_column_normal{
     background-color: #9aaad0;
+    /* Pour le reflet */
+    background: linear-gradient(210deg,rgba(255, 255, 255, 1) 0%, rgba(154, 170, 208, 1) 10%, rgba(154, 170, 208, 1) 100%);
     color: #e3ecf3;
     font-size: 2rem;
     font-weight: bold;
 }
 main .container_pad .B_right_column_large{
     background-color: #30517f;
+    /* Pour le reflet */
+    background: linear-gradient(210deg,rgba(255, 255, 255, 1) 0%, rgba(48, 81, 127, 1) 10%, rgba(48, 81, 127, 1) 100%);
     color: #e3ecf3;
     font-size: 3rem;
     font-weight: bold;
 }
 main .container_pad .B_right_column_normal{
     background-color: #30517f;
+    /* Pour le reflet */
+    background: linear-gradient(210deg,rgba(255, 255, 255, 1) 0%, rgba(48, 81, 127, 1) 10%, rgba(48, 81, 127, 1) 100%);
     color: #e3ecf3;
     font-size: 3rem;
     font-weight: bold;
@@ -185,6 +216,8 @@ main .container_pad .B_right_column_normal{
 
 main .container_pad .B_center_top_row{
     background-color: #9aaad0;
+    /* Pour le reflet */
+    background: linear-gradient(210deg,rgba(255, 255, 255, 1) 0%, rgba(154, 170, 208, 1) 10%, rgba(154, 170, 208, 1) 100%);
     color: #e3ecf3;
     font-size: 2rem;
     font-weight: bold;
@@ -192,13 +225,18 @@ main .container_pad .B_center_top_row{
 
 main .container_pad .B_center_normal{
     background-color: #e3ecf3;
+    /* Pour le reflet */
+    background: linear-gradient(210deg,rgba(255, 255, 255, 1) 0%, rgba(227, 236, 243, 1) 10%, rgba(227, 236, 243, 1) 100%);
     color: #12161b;
     font-size: 3rem;
     font-weight: bold;
-    padding-right: 1.5rem;
+    padding-right: 1rem;
+    /* padding-right: 1.5rem; */
 }
 main .container_pad .B_center_operator{
-    background-color: #30517f;
+    background-color: #30507e;
+    /* Pour le reflet */
+    background: linear-gradient(210deg,rgba(255, 255, 255, 1) 0%, rgba(48, 81, 127, 1) 10%, rgba(48, 81, 127, 1) 100%);
     color: #e3ecf3;
     font-size: 3rem;
     font-weight: bold;
